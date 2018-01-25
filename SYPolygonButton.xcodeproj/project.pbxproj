@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54F8C5911F7A4983005A6C9F /* NavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F8C5901F7A4983005A6C9F /* NavViewController.swift */; };
 		54FDCC481F6FA26F00FCAE49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FDCC471F6FA26F00FCAE49 /* AppDelegate.swift */; };
 		54FDCC4A1F6FA26F00FCAE49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FDCC491F6FA26F00FCAE49 /* ViewController.swift */; };
 		54FDCC4D1F6FA26F00FCAE49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54FDCC4B1F6FA26F00FCAE49 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54F8C5901F7A4983005A6C9F /* NavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavViewController.swift; sourceTree = "<group>"; };
 		54FDCC441F6FA26F00FCAE49 /* SYPolygonButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYPolygonButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54FDCC471F6FA26F00FCAE49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54FDCC491F6FA26F00FCAE49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				54FDCC471F6FA26F00FCAE49 /* AppDelegate.swift */,
+				54F8C5901F7A4983005A6C9F /* NavViewController.swift */,
 				54FDCC491F6FA26F00FCAE49 /* ViewController.swift */,
 				54FDCC591F6FA2A400FCAE49 /* SYPolyponButton.swift */,
 				54FDCC4B1F6FA26F00FCAE49 /* Main.storyboard */,
@@ -154,6 +157,7 @@
 			files = (
 				54FDCC4A1F6FA26F00FCAE49 /* ViewController.swift in Sources */,
 				54FDCC481F6FA26F00FCAE49 /* AppDelegate.swift in Sources */,
+				54F8C5911F7A4983005A6C9F /* NavViewController.swift in Sources */,
 				54FDCC5A1F6FA2A400FCAE49 /* SYPolyponButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,6 +324,7 @@
 				54FDCC581F6FA26F00FCAE49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

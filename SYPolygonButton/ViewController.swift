@@ -12,16 +12,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+//        view.backgroundColor = .white
         
         
-        
-        let style = SYPolygonStyle()
-        style.borderWidth = 10
-        style.borderColor = .red
-        let btn = SYPolygonButton(frame: CGRect.init(x: 50, y: 50, width: 100, height: 200), style: style)
-        btn.setImage(UIImage.init(named: "zhbd_weixin_icon"), for: .normal)
-        view.addSubview(btn)
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
